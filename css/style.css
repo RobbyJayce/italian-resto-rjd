@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@400;500;600;700&family=Sacramento&family=Ultra&display=swap');
+
+:root {
+    --font-alfa: 'Alfa Slab One', cursive;
+    --font-bebas: 'Bebas Neue', cursive;
+    --font-mont: 'Montserrat', sans-serif;
+    --font-sacra: 'Sacramento', cursive;
+    --font-ultra: 'Ultra', serif;
+
+    --color-primary: #012c0b;
+    --color-secondary: #eaa81b;
+    --color-accent: #7d0000;
+}
+
+body {
+    background: darkgray;
+    white-space: nowrap;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav__menu {
+    display: flex;
+}
+
+
+#nav__menu li{
+    list-style-type: none;
+}
+
+#nav__menu li:last-child > a {
+    margin-right: 0;
+}
+
+#nav__menu a{
+    text-decoration: none;
+    font-family: var(--font-mont);
+    font-weight: 700;
+    color: #3d2514;
+    font-size: 2em;
+    margin: 0 33px;
+}
+
+
+
+
